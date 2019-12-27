@@ -1,0 +1,59 @@
+body{
+     background-color: #f1f2f6; 
+    
+}
+
+.brand-logo {
+    margin-left: 10px;
+    font-family: 'Girassol' ,cursive;
+    text-shadow: 4px 4px 4px 4px;
+    font-weight: bold;
+}
+.test {
+    color: red;
+    text-align: center;
+}
+.source-text  {
+    font-style: italic;
+    font-size: .8rem;
+    font-family: monospace;
+}
+
+.topnav  {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .searchBar {
+      display: flex;
+      flex-direction: row;
+      float: right;
+      width: 400px;
+  }
+  .sports-categories-box {
+    background: linear-gradient(to right, #c04848, #480048);
+  }
+
+  .tech-category-box {
+    /* background: linear-gradient(to right, #5f2c82, #49a09d); */
+    background: linear-gradient(to right, #6441a5, #2a0845);
+  }
+
+  .ent-category-box {
+    /* background: linear-gradient(to right, #ffd89b, #19547b);  } */
+    background: linear-gradient(to right, #136a8a, #267871);
+  }
+
+    .busi-category-box {
+        background: linear-gradient(to right, #000428, #004e92);  
+      }
+
+      .sci-category-box {
+        background: linear-gradient(to right, #200122, #6f0000);
+      }
+      .health-category-box {
+        background: linear-gradient(to right, #304352, #d7d2cc);
+      }
