@@ -15,7 +15,8 @@ app.set('views', path.join(__dirname + '/views'));
 
 configRoutes(app);
 
-app.listen(3000, () => {
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
     console.log("We've now got a server!");
     console.log("Your routes will be running on http://localhost:3000"); 
 });
